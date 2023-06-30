@@ -8,7 +8,7 @@ Setting Compiler and Graphics files-
 • Download the Graphics library from the link mentioned below:
 https://drive.google.com/file/d/16xZBvFXf7yFjxwTpuyevK1KPuLgUeZFh/view
 
-Open VS code -> Create a file with .cpp -> View -> Command Palette -> C/C++:Edit Configurations(UI) -> Change the compiler path to the appropriate 32 bit gcc compiler.
+Open VS code -> Create a file with .c -> View -> Command Palette -> C/C++:Edit Configurations(UI) -> Change the compiler path to the appropriate 32 bit gcc compiler.
 
 Under Compiler arguments add, -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 
